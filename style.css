@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-color: white;
+    border-radius: 73px;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 16px;
+}
+
+.cabecalho-nome {
+    font-family: 'Poppins', sans-serif;
+    font-size: 57px;
+    color: black;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+    /*font-family: 'Kdam Thmor Pro', sans-serif;*/
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    font-size: 23px;
+}
+
+.cabecalho-menu-item {
+    color: black;
+ } 
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    /*background-image: linear-gradient(to right, #434343 0%, black 100%);*/
+    background-color: white;
+}
+
+.conteudo {
+    border-top: #6626a0;
+}
+.conteudo-principal-escrito {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-escrito-1 {
+    font-size: 70px;
+    font-weight: 600;
+    color: #06A3AA;
+} 
+
+.conteudo-principal-escrito-2 {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    color: #FEB201;
+}
+
+.botao-contato{
+    background-color: #dbdbdb;
+    width: 106px;
+    height: 59px;
+    border-radius: 9px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    font-size: 20px;
+}
+.imagem-principal.png {
+    width: 500px;
+}
+
+.informacoes-adicionais {
+    /*background-image: linear-gradient(to right, #434343 0%, black 100%);*/
+    background-color: white;
+}
+
+.conteudo-secundario {
+    display: flex;
+    justify-content: center;
+}
